@@ -11,12 +11,12 @@ In this lab, the student will create storage LUNS within VMware for PKS to utili
 
 ### Step 1 - Create Static Disk for PVC within VMware and issue the following commands down below:
 
-##  SSH into ESX Host (please see lab guide for ESX Host Mapping)
-## cd /vmfs
-## cd volumes/
-## cd DATASTORE/
-## cd kubevols
-## vmkfstools -c 2G student-x.vmdk  (where student-x equals student number)
+# SSH into ESX Host (please see lab guide for ESX Host Mapping)
+# cd /vmfs
+# cd volumes/
+# cd DATASTORE/
+# cd kubevols
+# vmkfstools -c 2G student-x.vmdk  (where student-x equals student number)
 
 Expected output:
 
